@@ -1,6 +1,6 @@
 public class Secondlargest
 {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
         int [] arr=new int[]{10,20,32,40,89,50,90};
         int n=arr.length;
@@ -14,5 +14,5 @@ public class Secondlargest
             }
         }
         System.out.println("Second largest element is:"+arr[arr.length-2]);
-	}
+    }
 }
